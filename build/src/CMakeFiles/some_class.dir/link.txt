@@ -1,0 +1,2 @@
+/usr/bin/ar qc libsome_class.a CMakeFiles/some_class.dir/some_class.cpp.o
+/usr/bin/ranlib libsome_class.a
