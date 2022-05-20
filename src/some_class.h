@@ -5,6 +5,7 @@ private:
 public:
     some_class(/* args */);
     ~some_class();
+    int sum(int, int);
 };
 
 

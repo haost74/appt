@@ -1,1 +1,1 @@
-/bin/c++ -rdynamic CMakeFiles/app.dir/main.cpp.o -o app  src/libsome_class.a 
+/bin/c++ -g -rdynamic CMakeFiles/app.dir/main.cpp.o -o app  src/libsome_class.a 

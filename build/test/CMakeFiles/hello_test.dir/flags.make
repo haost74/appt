@@ -6,5 +6,5 @@ CXX_DEFINES =
 
 CXX_INCLUDES = -isystem /home/haost/Desktop/appt/build/_deps/googletest-src/googletest/include -isystem /home/haost/Desktop/appt/build/_deps/googletest-src/googletest
 
-CXX_FLAGS = -std=gnu++20
+CXX_FLAGS = -g -std=gnu++20
 

@@ -300,4 +300,5 @@ test/CMakeFiles/hello_test.dir/hello_test.cc.o: \
  /home/haost/Desktop/appt/build/_deps/googletest-src/googletest/include/gtest/gtest-test-part.h \
  /home/haost/Desktop/appt/build/_deps/googletest-src/googletest/include/gtest/gtest-typed-test.h \
  /home/haost/Desktop/appt/build/_deps/googletest-src/googletest/include/gtest/gtest_pred_impl.h \
- /home/haost/Desktop/appt/build/_deps/googletest-src/googletest/include/gtest/gtest_prod.h
+ /home/haost/Desktop/appt/build/_deps/googletest-src/googletest/include/gtest/gtest_prod.h \
+ /home/haost/Desktop/appt/test/../src/some_class.h
