@@ -22,6 +22,7 @@ add_executable(
 )
 target_link_libraries(
   hello_test
+  ${CMAKE_SOURCE_DIR}/build/src/libsome_class.a
   gtest_main
 )
 

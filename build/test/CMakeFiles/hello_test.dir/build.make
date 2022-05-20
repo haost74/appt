@@ -73,15 +73,15 @@ test/CMakeFiles/hello_test.dir/hello_test.cc.o: test/CMakeFiles/hello_test.dir/f
 test/CMakeFiles/hello_test.dir/hello_test.cc.o: ../test/hello_test.cc
 test/CMakeFiles/hello_test.dir/hello_test.cc.o: test/CMakeFiles/hello_test.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haost/Desktop/appt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object test/CMakeFiles/hello_test.dir/hello_test.cc.o"
-	cd /home/haost/Desktop/appt/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/hello_test.dir/hello_test.cc.o -MF CMakeFiles/hello_test.dir/hello_test.cc.o.d -o CMakeFiles/hello_test.dir/hello_test.cc.o -c /home/haost/Desktop/appt/test/hello_test.cc
+	cd /home/haost/Desktop/appt/build/test && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT test/CMakeFiles/hello_test.dir/hello_test.cc.o -MF CMakeFiles/hello_test.dir/hello_test.cc.o.d -o CMakeFiles/hello_test.dir/hello_test.cc.o -c /home/haost/Desktop/appt/test/hello_test.cc
 
 test/CMakeFiles/hello_test.dir/hello_test.cc.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/hello_test.dir/hello_test.cc.i"
-	cd /home/haost/Desktop/appt/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haost/Desktop/appt/test/hello_test.cc > CMakeFiles/hello_test.dir/hello_test.cc.i
+	cd /home/haost/Desktop/appt/build/test && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haost/Desktop/appt/test/hello_test.cc > CMakeFiles/hello_test.dir/hello_test.cc.i
 
 test/CMakeFiles/hello_test.dir/hello_test.cc.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/hello_test.dir/hello_test.cc.s"
-	cd /home/haost/Desktop/appt/build/test && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haost/Desktop/appt/test/hello_test.cc -o CMakeFiles/hello_test.dir/hello_test.cc.s
+	cd /home/haost/Desktop/appt/build/test && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haost/Desktop/appt/test/hello_test.cc -o CMakeFiles/hello_test.dir/hello_test.cc.s
 
 # Object files for target hello_test
 hello_test_OBJECTS = \
@@ -92,6 +92,7 @@ hello_test_EXTERNAL_OBJECTS =
 
 test/hello_test: test/CMakeFiles/hello_test.dir/hello_test.cc.o
 test/hello_test: test/CMakeFiles/hello_test.dir/build.make
+test/hello_test: src/libsome_class.a
 test/hello_test: lib/libgtest_main.a
 test/hello_test: lib/libgtest.a
 test/hello_test: test/CMakeFiles/hello_test.dir/link.txt

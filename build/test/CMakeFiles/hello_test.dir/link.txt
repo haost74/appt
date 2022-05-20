@@ -1,1 +1,1 @@
-/usr/bin/c++ -rdynamic CMakeFiles/hello_test.dir/hello_test.cc.o -o hello_test  ../lib/libgtest_main.a ../lib/libgtest.a 
+/bin/c++ -rdynamic CMakeFiles/hello_test.dir/hello_test.cc.o -o hello_test  ../src/libsome_class.a ../lib/libgtest_main.a ../lib/libgtest.a 

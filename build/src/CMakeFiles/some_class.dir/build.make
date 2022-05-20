@@ -73,15 +73,15 @@ src/CMakeFiles/some_class.dir/some_class.cpp.o: src/CMakeFiles/some_class.dir/fl
 src/CMakeFiles/some_class.dir/some_class.cpp.o: ../src/some_class.cpp
 src/CMakeFiles/some_class.dir/some_class.cpp.o: src/CMakeFiles/some_class.dir/compiler_depend.ts
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/haost/Desktop/appt/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_1) "Building CXX object src/CMakeFiles/some_class.dir/some_class.cpp.o"
-	cd /home/haost/Desktop/appt/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/some_class.dir/some_class.cpp.o -MF CMakeFiles/some_class.dir/some_class.cpp.o.d -o CMakeFiles/some_class.dir/some_class.cpp.o -c /home/haost/Desktop/appt/src/some_class.cpp
+	cd /home/haost/Desktop/appt/build/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -MD -MT src/CMakeFiles/some_class.dir/some_class.cpp.o -MF CMakeFiles/some_class.dir/some_class.cpp.o.d -o CMakeFiles/some_class.dir/some_class.cpp.o -c /home/haost/Desktop/appt/src/some_class.cpp
 
 src/CMakeFiles/some_class.dir/some_class.cpp.i: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/some_class.dir/some_class.cpp.i"
-	cd /home/haost/Desktop/appt/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haost/Desktop/appt/src/some_class.cpp > CMakeFiles/some_class.dir/some_class.cpp.i
+	cd /home/haost/Desktop/appt/build/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/haost/Desktop/appt/src/some_class.cpp > CMakeFiles/some_class.dir/some_class.cpp.i
 
 src/CMakeFiles/some_class.dir/some_class.cpp.s: cmake_force
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/some_class.dir/some_class.cpp.s"
-	cd /home/haost/Desktop/appt/build/src && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haost/Desktop/appt/src/some_class.cpp -o CMakeFiles/some_class.dir/some_class.cpp.s
+	cd /home/haost/Desktop/appt/build/src && /bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/haost/Desktop/appt/src/some_class.cpp -o CMakeFiles/some_class.dir/some_class.cpp.s
 
 # Object files for target some_class
 some_class_OBJECTS = \
